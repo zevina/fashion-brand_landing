@@ -165,13 +165,8 @@ path {
     display: flex;
 }
 
-.dropdown-menu__link:active .dropdown-menu{
-    display: none;
-}
 
-/*.close-btn:active .dropdown-menu{*/
-/*    display: none;*/
-/*}*/
+
 
 .top {
     display: flex;
@@ -773,6 +768,10 @@ path {
     .dropdown-menu {
         top: 50px;
         left: -27vw;
+    }
+
+    .dropdown-menu__link:active .dropdown-menu{
+        display: none;
     }
 
 }
