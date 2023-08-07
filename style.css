@@ -120,6 +120,11 @@ path {
     width: 232px;
 }
 
+/*.drop-head {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+
 .dropdown-menu a{
     text-decoration: none;
 }
@@ -159,6 +164,14 @@ path {
 .dropdown-menu__link:hover .dropdown-menu{
     display: flex;
 }
+
+.dropdown-menu__link:active .dropdown-menu{
+    display: none;
+}
+
+/*.close-btn:active .dropdown-menu{*/
+/*    display: none;*/
+/*}*/
 
 .top {
     display: flex;
