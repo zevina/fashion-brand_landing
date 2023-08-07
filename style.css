@@ -138,6 +138,10 @@ path {
     padding-bottom: 12px;
 }
 
+/*.dropdown-menu__heading:hover {*/
+/*    text-decoration: #f16d7f underline;*/
+/*}*/
+
 .dropdown-menu__item {
     color: #6F6E6E;
     font-size: 14px;
@@ -145,6 +149,11 @@ path {
     padding-left: 22px;
     padding-right: 48px;
     padding-bottom: 11px;
+}
+
+.dropdown-menu__item:hover {
+    color: #222222;
+    font-weight: 600;
 }
 
 .dropdown-menu__link:hover .dropdown-menu{
@@ -405,7 +414,7 @@ path {
 
 
 .features {
-    background: #222224;
+    background: #222222;
 }
 
 .features-cards {
@@ -484,7 +493,7 @@ path {
 }
 
 .quote {
-    color: #222224;
+    color: #222222;
     text-align: center;
     font-size: 20px;
     font-weight: 400;
@@ -496,7 +505,7 @@ path {
 }
 
 .subscribe-title {
-    color: #222224;
+    color: #222222;
     text-align: center;
     font-size: 24px;
     font-weight: 700;
@@ -505,7 +514,7 @@ path {
 }
 
 .subscribe-text {
-    color: #222224;
+    color: #222222;
     font-size: 18px;
     font-weight: 400;
     line-height: 167.2%;
@@ -523,7 +532,7 @@ path {
     border: 1px solid transparent;
     box-sizing: border-box;
     outline: none;
-    color: #222224;
+    color: #222222;
     font-size: 14px;
     font-weight: 400;
     opacity: 0.7;
