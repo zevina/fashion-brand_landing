@@ -758,6 +758,7 @@ path {
     }
 
     .dropdown-menu {
+        top: 50px;
         left: -27vw;
     }
 
